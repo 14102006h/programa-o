@@ -27,11 +27,14 @@ a{
 .menu{
     display: flex;
 }
-    .menu li  {
-        margin-left: 10px;
-    }
+   
+.menu li  {
+    margin-left: 10px;
+}
 
-    .menu li a {
+    
+.menu li a {
         display:block;
         padding: 10px;
-    }
+        background-color: rgb(226, 51, 51);
+}
