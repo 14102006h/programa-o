@@ -1,4 +1,4 @@
-body, ul, LI, P{
+body, ul, li, P{
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -7,11 +7,11 @@ body, ul, LI, P{
 }
 
 .logo{
-    width: 200px;
+    width: 300px;
 }
 
 a{
-    text-decoration: lumus livraria;
+    text-decoration: none;
     color: white ;
 }
 
@@ -31,10 +31,61 @@ a{
 .menu li  {
     margin-left: 10px;
 }
-
     
 .menu li a {
-        display:block;
-        padding: 10px;
-        background-color: rgb(226, 51, 51);
+    display:block;
+    padding: 10px;
+    background-color: #2a4d19;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.paragrafo {
+    padding: 7px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.imagem {
+    height: auto;
+    width: 350px;
+}
+
+.flex{
+    min-width: 100vh;
+    background-color: #2a4d19;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    display: flow-root;
+    align-items: center;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.footer {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redeLogo {
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
 }
